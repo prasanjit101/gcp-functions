@@ -1,7 +1,5 @@
 # Google Cloud Function Template #
 
-If you are looking for a boilerplate code for [Google Cloud Function](https://cloud.google.com/functions/) then you can use this repository.
-
 ### What can this repository do? ###
 
 * Get you started quickly with `Google Cloud Functions`
@@ -25,8 +23,6 @@ If you are looking for a boilerplate code for [Google Cloud Function](https://cl
 * Replace `<gcp-region>` with *actual name of the gcp region*
 * Setup Gcloud SDK into your terminal, [Gcloud SDK](https://cloud.google.com/sdk/docs/quickstart)
 * On your terminal, Run `./deploy-to-cloud.sh`
-* Wait for a couple of minutes, the project should be deployed to Google cloud functions
-* Check whether it's running properly at the [console](https://cloud.google.com/functions/)
 
 ### How to deploy automatically using CI/CD (bitbucket pipeline)? ###
 
@@ -37,11 +33,3 @@ If you are looking for a boilerplate code for [Google Cloud Function](https://cl
 * Moment you commit your code to `master` branch of your repository, build pipeline will start and the Google cloud function will be deployed automatically.
 * Wait for a couple of minutes, the project should be deployed to Google cloud functions
 * Check whether it's running properly at the [console](https://cloud.google.com/functions/)
-
-### Contribution guidelines ###
-
-* Kindly suggest the improvements!
-
-### Best way to reach me? ###
-
-* [LinkedIN](https://www.linkedin.com/in/yashbeera/)
