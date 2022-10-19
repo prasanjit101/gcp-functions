@@ -1,0 +1,21 @@
+{
+  "name": "google-cloud-function-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @google-cloud/functions-framework --target=main --port=8081"
+  },
+  "author": "Yashbeer Singh",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/eslint-parser": "^7.18.9",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^1.7.1",
+    "eslint": "^8.11.0"
+  }
+}
